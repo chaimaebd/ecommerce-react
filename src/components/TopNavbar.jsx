@@ -1,0 +1,57 @@
+import React, { Component,Fragment } from 'react'
+import { Navbar, Container,Form,FormControl,Button } from 'react-bootstrap';
+import Logo from '../assets/images/LogoIcon.png';
+import 'font-awesome/css/font-awesome.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+export class TopNavbar extends Component {
+  render() {
+    return (
+      <Fragment>
+  <Navbar expand="lg" variant="light" bg="light">
+    <Container fluid={true}>
+      <Navbar.Brand href="#home">
+        <img
+          alt=""
+          src={Logo}
+          width="65"
+          height="65"
+          className="d-inline-block"
+        />
+        Chirurgie Med
+      </Navbar.Brand>
+      <Form className="d-flex">
+        <FormControl
+          type="search"
+          placeholder="Search"
+          className="me-1"
+          aria-label="Search"
+        />
+        <Button variant="outline-success"><i className="fa fa-search"></i></Button>
+      </Form>
+        <a className="cart-btn"><i className="fa fa-shopping-cart"></i> items 0 </a>
+
+<a href="#">
+  <i className="fa h3 fa-heart"></i>
+  <sup><span className="badge text-white bg-primary">0</span></sup>
+</a>
+
+<a href="#">
+  <i className="fa h3 fa-bell"></i>
+  <sup><span className="badge text-white bg-primary">0</span></sup>
+</a>
+
+<a className="share-icon" href="#"><i className="fa fa-share h4"></i></a>
+
+<a className="user-icon" href="#"><i className="fa fa-address-card h4"></i></a>
+
+
+    </Container>
+  </Navbar>
+</Fragment>
+
+    )
+  }
+}
+
+export default TopNavbar
