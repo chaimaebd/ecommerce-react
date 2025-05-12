@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react'
 import { Navbar, Container,Form,FormControl,Button } from 'react-bootstrap';
-import Logo from '../assets/images/LogoIcon.png';
+import Logo from '../assets/images/ctp.png';
 import 'font-awesome/css/font-awesome.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -14,12 +14,11 @@ export class TopNavbar extends Component {
         <img
           alt=""
           src={Logo}
-          width="65"
-          height="65"
+          width="50"
+          height="50"
           className="d-inline-block"
         />
-        Chirurgie Med
-      </Navbar.Brand>
+Creative Team      </Navbar.Brand>
       <Form className="d-flex">
         <FormControl
           type="search"
