@@ -9,9 +9,10 @@
      padding: 5px 15px 5px 15px;
      color: #FFFFFF;
      border-radius: 20px !important;
-     border:0.5px solid rgb(50, 111, 168);
-     background: rgb(50, 111, 168)!important;
+     border:0.5px solid #af1e4a;
+     background: #af1e4a !important;
      text-decoration: none;
+    
 }
 .cart-btn:hover{
      padding: 5px 15px 5px 15px;
@@ -24,7 +25,7 @@
 
 .user-icon{
      font-size:25px;
-     color:rgb(50, 111, 168);
+     color:#af1e4a;
      margin-right: 15px;
      margin-left: 10px;
 }
@@ -36,14 +37,14 @@
      margin-left: 10px;
 }
 
-.share-btn{
+.Search-btn{
      font-size:25px;
      color:#ffffff;
- background-color:rgb(50, 111, 168) !important;
+ background-color:#af1e4a !important;
 
 }
 
-.share-btn:hover{
+.Search-btn:hover{
      font-size:25px;
      color:#ffffff;
  background-color:#23af1e !important;
