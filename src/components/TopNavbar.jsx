@@ -30,19 +30,19 @@ Creative Team      </Navbar.Brand>
       </Form>
         <a className="cart-btn"><i className="fa fa-shopping-cart"></i> items 0 </a>
 
-<a href="#">
-  <i className="fa h3 fa-heart"></i>
-  <sup><span className="badge text-white bg-primary">0</span></sup>
+<a href="#"className='heart-icon h5'>
+  <i className="fa  fa-heart"></i>
+  <sup><span className="badge text-white bg-danger">0</span></sup>
 </a>
 
-<a href="#">
+<a href="#" className='notification-icon h5'>
   <i className="fa h3 fa-bell"></i>
-  <sup><span className="badge text-white bg-primary">0</span></sup>
+  <sup><span className="badge text-white bg-danger">0</span></sup>
 </a>
 
-<a className="share-icon" href="#"><i className="fa fa-share h4"></i></a>
+<a className="share-icon h5" href="#"><i className="fa fa-share "></i></a>
 
-<a className="user-icon" href="#"><i className="fa fa-address-card h4"></i></a>
+<a className="user-icon h5" href="#"><i className="fa fa-address-card "></i></a>
 
 
     </Container>
